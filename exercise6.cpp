@@ -5,6 +5,7 @@ int main(){
   int b=9;
   int temp;
   temp=a;
+  a=b;
   b=temp;
   cout<<a<<endl;
   cout<<b<<endl;
